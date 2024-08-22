@@ -1,0 +1,93 @@
+body {
+    color: whitesmoke;
+    background: rgb(66, 66,66);
+    margin: 1px;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 2px lightseagreen;
+    padding: 20px;
+    font-size: 32px;
+    color: lightseagreen;
+    font-family: "DM Serif Text", serif;
+}
+
+.chamada {
+    background: lightseagreen;
+    padding-bottom: 60px;
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+    font-family: "Lato", sans-serif;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 25px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria v {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 2px solid lightseagreen;
+}
+
+.categoria h3 {
+    color: lightseagreen;
+    font-size: 28px;
+}
+
+.categoria-series {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria s {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-series img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria h4 {
+    color: lightseagreen;
+    font-size: 28px;
+}
+
+.categoria-series img:hover {
+    opacity: 1.0;
+    border: 2px solid lightseagreen;
+}
